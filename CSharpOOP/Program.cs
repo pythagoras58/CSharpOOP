@@ -11,8 +11,18 @@ namespace CSharpOOP
             Console.WriteLine(cars.Name);
 
             // inheritance
-            Triangle triangle = new Triangle();
-            triangle.area();
+            Rectangle rectangle = new Rectangle(2, 3);
+            Triangle triangle = new Triangle(2,3);
+           
+
+            Polygon[] shapes = new Polygon[2];
+            shapes[0] = rectangle;
+            shapes[1] = triangle;
+
+            foreach(Polygon p in shapes)
+            {
+                Console.WriteLine(p.area());
+            }
 
         }
     }
