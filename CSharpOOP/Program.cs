@@ -21,7 +21,7 @@ namespace CSharpOOP
 
             foreach(Polygon p in shapes)
             {
-                Console.WriteLine(p.area());
+                Console.WriteLine("AREA -> " + p.area());
             }
 
         }
