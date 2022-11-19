@@ -7,7 +7,7 @@ namespace CSharpOOP
         static void Main(string[] args)
         {
             Cars cars = new Cars("Lambi", "Toyota", 23432343.432m);
-
+            Console.WriteLine(cars.Name);
 
         }
     }
