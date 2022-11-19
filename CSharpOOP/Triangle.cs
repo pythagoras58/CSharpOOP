@@ -6,8 +6,15 @@ namespace CSharpOOP
 {
     class Triangle : Polygon
     {
-        double length = 23.23;
-        double breadth = 21231.2;
+        double length;
+        double breadth;
+
+        public Triangle(double l, double b)
+        {
+            length = l;
+            breadth = b;
+        }
+
         public override double area()
         {
             //throw new NotImplementedException();
