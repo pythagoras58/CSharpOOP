@@ -11,7 +11,8 @@ namespace CSharpOOP
             Console.WriteLine(cars.Name);
 
             // inheritance
-
+            Triangle triangle = new Triangle();
+            triangle.area();
 
         }
     }
