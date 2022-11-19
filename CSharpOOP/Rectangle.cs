@@ -6,8 +6,14 @@ namespace CSharpOOP
 {
     class Rectangle : Polygon
     {
-        double length = 323.23;
-        double breadth = 2322.32;
+        double length;
+        double breadth;
+
+        public Rectangle(double l, double b)
+        {
+            length = l;
+            breadth = b;
+        }
         public override double area()
         {
             //throw new NotImplementedException();
