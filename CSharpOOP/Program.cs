@@ -6,8 +6,12 @@ namespace CSharpOOP
     {
         static void Main(string[] args)
         {
+            // classes
             Cars cars = new Cars("Lambi", "Toyota", 23432343.432m);
             Console.WriteLine(cars.Name);
+
+            // inheritance
+
 
         }
     }
@@ -23,7 +27,6 @@ namespace CSharpOOP
             name = n;
             brand = b;
             price = p;
-
         }
         public string Name
         {
@@ -31,4 +34,7 @@ namespace CSharpOOP
             set { name = value; }
         }
     }
+
+    
+
 }
